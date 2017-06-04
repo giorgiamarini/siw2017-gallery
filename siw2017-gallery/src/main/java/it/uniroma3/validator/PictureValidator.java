@@ -1,4 +1,4 @@
-package it.unroma3.validator;
+package it.uniroma3.validator;
 
 import javax.servlet.http.HttpServletRequest;
 import it.uniroma3.model.Picture;
