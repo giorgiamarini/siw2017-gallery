@@ -10,7 +10,7 @@
 		<intercept-url pattern="/admin**" access="ROLE_USER" />
 		<form-login
 		    login-page="/login"
-		    default-target-url="/welcome"
+		    default-target-url="/welcome" 
 			authentication-failure-url="/login?error"
 			username-parameter="username"
 			password-parameter="password" />
@@ -22,7 +22,7 @@
 	<authentication-manager>
 		<authentication-provider>
 		  <user-service>
-			<user name="mkyong" password="123456" authorities="ROLE_USER" />
+			<user name="admin" password="admin" authorities="ROLE_USER" />
 		  </user-service>
 		</authentication-provider>
 	</authentication-manager>
