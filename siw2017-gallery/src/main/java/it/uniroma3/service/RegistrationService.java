@@ -28,7 +28,7 @@ public class RegistrationService {
 		utenteRepository.save(utente);
 	}
 	
-/*	public boolean usernamePresente(String username) {
+  public boolean usernamePresente(String username) {
 		List<User> listaUtenti = utenteRepository.findByUsername(username);
 		return listaUtenti.size() > 0 ? true : false;
 	}
@@ -37,7 +37,7 @@ public class RegistrationService {
 		List<User> listaUtenti = utenteRepository.findByEmail(email);
 		return listaUtenti.size() > 0 ? true : false;
 	}
-	 */
+	 
 	@Transactional
 	public List<User> listaUtenti() {
 		 List<User> listaUtenti =  Lists.newArrayList(utenteRepository.findAll());
