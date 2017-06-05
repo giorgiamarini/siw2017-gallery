@@ -20,20 +20,6 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/giorgiamarini/Documents/workspace/prova1/WebContent/WEB-INF/lib/jstl-1.2.jar"/>
-	<classpathentry kind="lib" path="/Users/giorgiamarini/Downloads/postgresql-42.0.0.jar"/>
-	<classpathentry kind="lib" path="/Users/giorgiamarini/Downloads/hibernate-release-5.2.8.Final/lib/jpa-metamodel-generator/hibernate-jpamodelgen-5.2.8.Final.jar"/>
-	<classpathentry kind="lib" path="/Users/giorgiamarini/Downloads/hibernate-release-5.2.8.Final/lib/required/antlr-2.7.7.jar"/>
-	<classpathentry kind="lib" path="/Users/giorgiamarini/Downloads/hibernate-release-5.2.8.Final/lib/required/classmate-1.3.0.jar"/>
-	<classpathentry kind="lib" path="/Users/giorgiamarini/Downloads/hibernate-release-5.2.8.Final/lib/required/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="/Users/giorgiamarini/Downloads/hibernate-release-5.2.8.Final/lib/required/hibernate-commons-annotations-5.0.1.Final.jar"/>
-	<classpathentry kind="lib" path="/Users/giorgiamarini/Downloads/hibernate-release-5.2.8.Final/lib/required/hibernate-core-5.2.8.Final.jar"/>
-	<classpathentry kind="lib" path="/Users/giorgiamarini/Downloads/hibernate-release-5.2.8.Final/lib/required/hibernate-jpa-2.1-api-1.0.0.Final.jar" sourcepath="/siw-jpa-esercizio1/src/it/uniroma3/db/products/META-INF"/>
-	<classpathentry kind="lib" path="/Users/giorgiamarini/Downloads/hibernate-release-5.2.8.Final/lib/required/jandex-2.0.3.Final.jar"/>
-	<classpathentry kind="lib" path="/Users/giorgiamarini/Downloads/hibernate-release-5.2.8.Final/lib/required/javassist-3.20.0-GA.jar"/>
-	<classpathentry kind="lib" path="/Users/giorgiamarini/Downloads/hibernate-release-5.2.8.Final/lib/required/jboss-logging-3.3.0.Final.jar"/>
-	<classpathentry kind="lib" path="/Users/giorgiamarini/Downloads/hibernate-release-5.2.8.Final/lib/required/jboss-transaction-api_1.2_spec-1.0.1.Final.jar"/>
-	<classpathentry kind="lib" path="/Users/giorgiamarini/Desktop/servlet-api copia.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0">
 		<attributes>
 			<attribute name="owner.project.facets" value="jst.web"/>
@@ -44,18 +30,5 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/martinamangione/Downloads/siw-servlet-es9.7/WebContent/WEB-INF/lib/jstl-1.2.jar"/>
-	<classpathentry kind="lib" path="/Users/martinamangione/Downloads/hibernate-release-5.2.8.Final/lib/required/antlr-2.7.7.jar"/>
-	<classpathentry kind="lib" path="/Users/martinamangione/Downloads/hibernate-release-5.2.8.Final/lib/required/classmate-1.3.0.jar"/>
-	<classpathentry kind="lib" path="/Users/martinamangione/Downloads/hibernate-release-5.2.8.Final/lib/required/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="/Users/martinamangione/Downloads/hibernate-release-5.2.8.Final/lib/required/hibernate-commons-annotations-5.0.1.Final.jar"/>
-	<classpathentry kind="lib" path="/Users/martinamangione/Downloads/hibernate-release-5.2.8.Final/lib/required/hibernate-core-5.2.8.Final.jar"/>
-	<classpathentry kind="lib" path="/Users/martinamangione/Downloads/hibernate-release-5.2.8.Final/lib/required/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
-	<classpathentry kind="lib" path="/Users/martinamangione/Downloads/hibernate-release-5.2.8.Final/lib/required/jandex-2.0.3.Final.jar"/>
-	<classpathentry kind="lib" path="/Users/martinamangione/Downloads/hibernate-release-5.2.8.Final/lib/required/javassist-3.20.0-GA.jar"/>
-	<classpathentry kind="lib" path="/Users/martinamangione/Downloads/hibernate-release-5.2.8.Final/lib/required/jboss-logging-3.3.0.Final.jar"/>
-	<classpathentry kind="lib" path="/Users/martinamangione/Downloads/hibernate-release-5.2.8.Final/lib/required/jboss-transaction-api_1.2_spec-1.0.1.Final.jar"/>
-	<classpathentry kind="lib" path="/Users/martinamangione/Downloads/postgresql-42.0.0.jre7.jar"/>
-	<classpathentry kind="lib" path="/Users/martinamangione/Documents/apache-tomcat-8.0.44/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
