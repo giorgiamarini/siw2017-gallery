@@ -8,9 +8,12 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 import javax.persistence.TypedQuery;
 
+import org.springframework.stereotype.Service;
+
 import it.uniroma3.model.Picture;
 import it.uniroma3.repository.PictureRepository;
 
+@Service
 public class PictureService {
 	
 	private EntityManager em;

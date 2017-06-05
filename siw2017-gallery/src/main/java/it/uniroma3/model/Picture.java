@@ -6,6 +6,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.NamedQuery;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
+import org.springframework.format.annotation.DateTimeFormat;
 
 @Entity
 @NamedQuery(name = "findAll", query = "SELECT p FROM Picture p")
@@ -14,13 +18,26 @@ public class Picture {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id; 
-	private String title; 
+	
+	@NotNull
+	@Size(min=1)
+	private String title;
+	
+	@NotNull
+	@DateTimeFormat(pattern="yyyy")
 	private Integer year; 
+	
+	@NotNull
+	@Size(min=1)
 	private String technique; 
+	
+	@NotNull
 	private Integer lenght; 
+	@NotNull
 	private Integer height; 
 	
 	@ManyToOne
+	@NotNull
 	private Author author;
 	
 	public Picture(){ }
