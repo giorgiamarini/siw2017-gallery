@@ -27,7 +27,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		.authoritiesByUsernameQuery("SELECT username, authority from authorities where username=?"); 
 	}
 
-	protected void config(HttpSecurity http) throws Exception{
+	@Override
+	protected void configure(HttpSecurity http) throws Exception{
 
 		http
 		.authorizeRequests()
