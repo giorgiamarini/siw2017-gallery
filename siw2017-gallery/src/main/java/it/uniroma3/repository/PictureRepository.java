@@ -1,12 +1,14 @@
 package it.uniroma3.repository;
 
-import javax.persistence.EntityManager;
+import java.util.List;
+import org.springframework.data.repository.CrudRepository;
+
 import it.uniroma3.model.Picture;
 
-public class PictureRepository extends CrudRepositoryJPA<Picture> {
-
-	public PictureRepository(EntityManager em) {
-		super(em, Picture.class);
-	}
+public interface PictureRepository extends CrudRepository<Picture, Long> {
+	
+	List<Picture> findByTitle(String title);
+	
+	List<Picture> findByAuthor(String author);
 
 }

@@ -1,14 +1,14 @@
 package it.uniroma3.repository;
 
-import javax.persistence.EntityManager;
 
+import java.util.List;
+import org.springframework.data.repository.CrudRepository;
 import it.uniroma3.model.Author;
 
-public class AuthorRepository extends CrudRepositoryJPA<Author> {
-
-	public AuthorRepository(EntityManager em) {
-		super(em, Author.class);
-	}
+public interface AuthorRepository extends CrudRepository<Author, Long> {
 	
+	List<Author> findByName(String name);
+	
+	List<Author> findBySurname(String surname);
 
 }
